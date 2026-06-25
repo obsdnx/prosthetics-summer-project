@@ -54,6 +54,7 @@ Current design version: **V3** (outer phalange) / **V2** (hinge)
 | Tool | Purpose |
 |---|---|
 | CAD software (STEP output) | Parametric design of phalanges, hinges, chassis |
+| Bambu Studio | Slicing STL/STEP files for 3D printing |
 | 3D printer (FDM) | Fabricating structural parts |
 | 3D scanner | Capturing residual limb geometry for custom fit |
 | Silicone casting | Producing artificial finger cosmesis |
@@ -84,6 +85,22 @@ Current design version: **V3** (outer phalange) / **V2** (hinge)
 |---|---|---|
 | Outer phalange | V3 | `cad/step-files/V3 Outer phalange.STEP` |
 | Hinge | V2 | `cad/step-files/V2 Hinge.STEP` |
+
+---
+
+## Progress Photos
+
+**Chassis CAD model**
+![Chassis CAD model](photos/misc/chassis-cad.jpg)
+
+**Chassis fitted on hand model**
+![Chassis on hand model](photos/misc/chassis-on-hand-model.jpg)
+
+**3D printed chassis (V1 physical print)**
+![3D printed chassis](photos/misc/chassis-print.jpg)
+
+**Slicer setup — underplate (Bambu Studio)**
+![Slicer underplate](photos/misc/slicer-underplate.jpg)
 
 ---
 

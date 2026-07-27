@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('Right Hand.STEP',
+    '2026-04-15T22:03:51',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2025',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#2 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #1, 'design' ) ;
+#3 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #6 ) ;
+#4 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#5 = PRODUCT ( 'Right Hand', 'Right Hand', '', ( #8 ) ) ;
+#6 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #9, #2 ) ;
+#7 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #4 ) ;
+#8 = PRODUCT_CONTEXT ( 'NONE', #4, 'mechanical' ) ;
+#9 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #5, .NOT_KNOWN. ) ;
+#10 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #5 ) ) ;
+#11 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #1 ) ;
+ENDSEC;
+END-ISO-10303-21;

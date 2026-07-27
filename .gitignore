@@ -1,0 +1,11 @@
+# Large video files — store locally or in shared drive
+*.mov
+# Individual large mp4s (small fitting videos <5MB are tracked)
+Claw Mechanism 1st Assembly Photos and videos/
+Reference Material*/
+
+# SolidWorks temp/lock files
+~$*
+
+# macOS
+.DS_Store

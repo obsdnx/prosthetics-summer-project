@@ -104,8 +104,9 @@ This gives a stronger and more controllable grasp than either approach alone. Th
 ```
 .
 ├── cad/
-│   ├── step-files/        # STEP files for all designed components
-│   └── 3d-models/         # STL / print-ready files
+│   ├── step-files/            # STEP files for all designed components
+│   ├── 3d-models/             # STL / print-ready files
+│   └── varun-claw-mechanism/  # SolidWorks claw mechanism (see CAD Files below)
 ├── scans/                 # 3D scan data of client's hand
 ├── photos/
 │   ├── arm/               # Fit photos on client's arm
@@ -184,8 +185,8 @@ cad/varun-claw-mechanism/
 
 ## References
 
-- [A Body-Powered Underactuated Prosthetic Finger Driven by MCP Joint Motion (2025)](https://doi.org/10.1109/LRA.2025.3525000) — basis for Harshad's cable-driven mechanism (see Figure 2)
-- [The WILMER Passive Hand Prosthesis for Toddlers (2009)](https://doi.org/10.3109/09638280903317823) — basis for Fern's elastic-band return approach
+- [A Body-Powered Underactuated Prosthetic Finger Driven by MCP Joint Motion (2025)](https://doi.org/10.3390/robotics14080107) — basis for Harshad's cable-driven mechanism (see Figure 2)
+- [The WILMER Passive Hand Prosthesis for Toddlers (2009)](https://doi.org/10.1097/JPO.0b013e31819ed6a7) — basis for Fern's elastic-band return approach
 - [Knick prosthetic finger v3.55 — Printables](https://www.printables.com/model/653551-knick-prosthetic-finger-v-355) — reference model for the left-hand single-finger mechanism
 - [MagSnap magnetic strap system](https://wrapitstorage.com/pages/magsnap) — reference for magnetic wrist attachment
 - Össur MCPinky-style partial-hand linkage — *reference needed*

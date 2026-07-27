@@ -68,7 +68,8 @@ This gives a stronger and more controllable grasp than either approach alone. Th
 
 | Tool | Purpose |
 |---|---|
-| CAD software (STEP output) | Parametric design of all components — digits, hinges, capstans, chassis |
+| SolidWorks | Primary CAD tool for finger mechanism and wrist plate design (Varun) |
+| CAD software (STEP output) | Parametric design — digits, hinges, capstans, chassis |
 | Bambu Studio | Slicing STL files for the Bambu Lab X1 printer |
 | Bambu Lab X1 | Primary FDM printer (PLA structural parts) |
 | Ultimaker / Biolab printers | Secondary print facilities |
@@ -93,6 +94,7 @@ This gives a stronger and more controllable grasp than either approach alone. Th
 | Alex | Plan of Work and Hackspace access; safety/induction; fitted RCJ cap modelling |
 | Anya | CAD support; 3D print/scan of left hand anatomy |
 | Mervyn | Left-hand string-pulley concept; attachment methods; materials and biocompatibility research |
+| Varun | Claw mechanism CAD (SolidWorks) — finger segments, wrist plate, spring hinges |
 | Nikhil, Anais | Attended planning meeting (15 Jun) |
 
 ---
@@ -114,7 +116,27 @@ This gives a stronger and more controllable grasp than either approach alone. Th
 
 ---
 
-## CAD Versions
+## CAD Files
+
+### Varun — Claw Mechanism (SolidWorks)
+
+The main finger mechanism, designed in SolidWorks. Two plate widths (original and narrow), three finger configurations, and two spring hinge variants. All files are `.SLDPRT` (parts) and `.SLDASM` (assemblies).
+
+```
+cad/varun-claw-mechanism/
+├── V1-Equal-3-Segment-Hand/     # 3 equal-length segments, original plate width
+├── V1-Wrist-Plate/              # Upper + lower wrist plate
+├── V1-Brackets/                 # Path bracket + hook mount
+├── V2-Equal-3-Segment-Hand/     # Narrow plate, equal segments
+├── V2-Non-Equal-3-Segment-Hand/ # Narrow plate, varying segment lengths
+├── V2-2-Segment-Hand/           # Narrow plate, 2-segment variant
+├── V2-Wrist-Plate/              # Narrow wrist plate
+├── V2-Brackets/                 # Path bracket + hook mount
+├── V2-Spring-Hinge/             # Spring hinge assembly (th-61-1)
+└── V2-Spring-Hinge-2/           # Spring hinge variant (th-61sus-1)
+```
+
+### Legacy STEP files
 
 | Component | Version | File |
 |---|---|---|
@@ -124,6 +146,27 @@ This gives a stronger and more controllable grasp than either approach alone. Th
 ---
 
 ## Progress Photos
+
+### Claw mechanism — July 2026
+
+**All CAD parts laid out (V2 narrow plate)**
+![Varun CAD parts layout](photos/misc/varun-cad-parts-layout.png)
+
+**Wrist plate fitted on arm with Velcro straps and spring hinge**
+![Wrist plate on arm](photos/misc/wrist-plate-on-arm.jpg)
+
+**Wrist plate hinge flexing — showing range of motion**
+![Wrist plate hinge flexing](photos/misc/wrist-plate-hinge-flexing.jpg)
+
+**Full assembly — left hand (black) and right hand (yellow) with cable routing**
+![Both hands assembled](photos/misc/assembly-both-hands.jpg)
+
+![Both hands assembled, second angle](photos/misc/assembly-both-hands-2.jpg)
+
+**Left hand mechanism — close-up of cable and finger segments**
+![Left hand cable detail](photos/misc/left-hand-cable-detail.jpg)
+
+### Early chassis work
 
 **Chassis CAD model**
 ![Chassis CAD model](photos/misc/chassis-cad.jpg)

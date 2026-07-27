@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-02112022-026065";"";
+"REFERENCE";"TH-61-1";"";
+"TraceParts.PartTitle";"Spring Hinge";"";
+"TraceParts.InstanceId";"90-02112022-0260652N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"TOCHIGIYA";"";
+"DESIGN";"Spring Hinge";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.0";"";
